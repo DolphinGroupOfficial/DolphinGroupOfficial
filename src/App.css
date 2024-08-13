@@ -1,0 +1,106 @@
+body{
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* CSS */
+.button-87 {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-87:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-87:active {
+  transform: scale(0.95);
+}
+
+.cursive-animation {
+  width: 80%;
+  max-width: 1000px;
+}
+
+path {
+  fill: none;
+  stroke: black;
+  stroke-width: 2;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw 8s linear infinite;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+text {
+  fill: none;
+  stroke: black;
+  stroke-width: 1;
+}
+
+.animated-gradient-text{
+  background: linear-gradient(
+        to right,
+        #00CDAC 20%,
+        #20BDFF 40%,
+        #A5FECB 60%,
+        #ffa751 80%,
+        #ffa751 90%
+
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 3s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+
+.wave-text:after{
+    content: url('./assets/wave-blue.svg');
+    width: 7rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.underline-highlight-green{
+  border-bottom: 0.2rem solid #00800094
+}
+
+.wave-text-gallery:after{
+  content: url('./assets/wave-blue.svg');
+  width: 5rem;
+  display: block;
+  margin: 0 auto;
+}
