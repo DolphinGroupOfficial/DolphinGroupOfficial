@@ -1,0 +1,21 @@
+.home-header-text-slide-1{
+    font-size: 72px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+}
+
+.home-header-caption-2{
+    left: 45%
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+
+    .home-header-text-slide-1 {
+        font-size: 30px;
+    }
+
+    .home-header-caption-2{
+        left: 28%
+    }
+}

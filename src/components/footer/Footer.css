@@ -1,0 +1,7 @@
+@media screen and (max-width: 600px) {
+
+    .footer-container{
+        height: 130vh;
+        flex-wrap: wrap !important;
+    }
+}
